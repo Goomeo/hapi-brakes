@@ -1,7 +1,7 @@
 {
   "name" : "hapi-brakes",
   "version" : "0.1.0",
-  "description" : "",
+  "description" : "Plugin to simplify the circuit breaker system inside an Hapi.JS environement ",
   "main" : "index.js",
   "author" : "Goomeo",
   "contributors" : [
@@ -12,12 +12,8 @@
     "node" : ">4.0.0"
   },
   "dependencies" : {
-    "hoek" : "^4.0.2",
     "brakes" : "^2.4.0",
-    "node-uuid" : "^1.4.7",
-    "underscore" : "^1.8.3",
-    "susie" : "^2.0.0",
-    "when" : "^3.7.7"
+    "underscore" : "^1.8.3"
   },
   "devDependencies" : {},
   "scripts" : {
