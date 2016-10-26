@@ -13,8 +13,7 @@
   },
   "dependencies": {
     "brakes": "^2.4.0",
-    "lodash": "^4.16.4",
-    "underscore": "^1.8.3"
+    "lodash": "^4.16.4"
   },
   "devDependencies": {},
   "scripts": {
