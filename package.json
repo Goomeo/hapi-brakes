@@ -1,27 +1,28 @@
 {
-  "name" : "hapi-brakes",
-  "version" : "0.1.0",
-  "description" : "Plugin to simplify the circuit breaker system inside an Hapi.JS environement ",
-  "main" : "index.js",
-  "author" : "Goomeo",
-  "contributors" : [
+  "name": "hapi-brakes",
+  "version": "0.1.0",
+  "description": "Plugin to simplify the circuit breaker system inside an Hapi.JS environement ",
+  "main": "lib/index.js",
+  "author": "Goomeo",
+  "contributors": [
     "Yoann MALLEMANCHE <yoann.mallemanche@gmail.com>",
     "Benjamin BESSE <benjamin.besse02@gmail.com>"
   ],
-  "engines" : {
-    "node" : ">4.0.0"
+  "engines": {
+    "node": ">4.0.0"
   },
-  "dependencies" : {
-    "brakes" : "^2.4.0",
-    "underscore" : "^1.8.3"
+  "dependencies": {
+    "brakes": "^2.4.0",
+    "lodash": "^4.16.4",
+    "underscore": "^1.8.3"
   },
-  "devDependencies" : {},
-  "scripts" : {
-    "test" : "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "license" : "Apache-2.0",
-  "bugs" : {
-    "url" : "https://github.com/Goomeo/hapi-brakes/issues"
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Goomeo/hapi-brakes/issues"
   },
-  "homepage" : "https://github.com/Goomeo/hapi-brakes"
+  "homepage": "https://github.com/Goomeo/hapi-brakes"
 }
