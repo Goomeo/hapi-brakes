@@ -1,6 +1,6 @@
 {
   "name": "hapi-brakes",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Plugin to simplify the circuit breaker system inside an Hapi.JS environement ",
   "main": "lib/index.js",
   "author": "Goomeo",
@@ -9,11 +9,11 @@
     "Benjamin BESSE <benjamin.besse02@gmail.com>"
   ],
   "engines": {
-    "node": ">4.0.0"
+    "node": ">4.2.0"
   },
   "dependencies": {
-    "brakes": "^2.4.0",
-    "lodash": "^4.16.4"
+    "brakes": "^2.5.1",
+    "lodash": "^4.17.2"
   },
   "devDependencies": {},
   "scripts": {
