@@ -1,6 +1,10 @@
 # hapi-brakes
 
-Plugin to simplify the circuit breaker system inside an Hapi.js environment
+Plugin to simplify the circuit breaker system using [Brakes](https://github.com/awolden/brakes) library inside an Hapi.js environment.
+
+To learn more about circuit breaker system, see [Netflix Hystrix Wiki](https://github.com/Netflix/Hystrix/wiki)
+
+There are other Hystrix's implementation in Node.js like [HystrixJS](https://bitbucket.org/igor_sechyn/hystrixjs) 
 
 ## Settings
 
